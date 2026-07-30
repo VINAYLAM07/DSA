@@ -24,13 +24,13 @@ public class splitArray {
         return min;
     }
 
-    private static int getArrayCOunt(int[] nums, int mid) {// {7,2,5,10,8}, 2
+    private static int getArrayCOunt(int[] nums, int mid) {// {7,2,5,10,8}, 21/15/18/17
         int count =1;
         int subArraySum = 0;
         for (int num : nums){
             if(subArraySum+num >mid){
                 count++;
-                subArraySum=num;// we are making current num add to sum tha adding next number and it continues
+                subArraySum=num;// we are making current num add to new subArraySum
             }else{
                 subArraySum +=num;
             }

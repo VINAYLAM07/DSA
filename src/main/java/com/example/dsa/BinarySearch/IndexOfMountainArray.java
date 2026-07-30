@@ -1,10 +1,10 @@
 package com.example.dsa.BinarySearch;
 
-public class indexOfMountainArray {
+public class IndexOfMountainArray {
 
     public static void main(String[] args) {
         System.out.println(search(new int[]{0, 3, 5, 9, 12, 25, 67, 68, 71, 79, 66, 54, 32, 3, 111}));
-        System.out.println(search(new int[]{1, 2}));
+        System.out.println(search(new int[]{1, 2}));// failing
     }
     private static int search(int[] arr) {
         int start = 0;
