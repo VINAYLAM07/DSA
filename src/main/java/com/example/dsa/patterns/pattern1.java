@@ -65,9 +65,9 @@ public class pattern1 {
     }
 
     private static void pattern7(int n) {
-        for(int row=0; row<n;row++){//increasing row size for revers stars
+        for(int row=0; row<n;row++){
 
-            int starsCount = row+1;//until <n taking row as a no of starts to print after  crossing it taking extended row limit - row
+            int starsCount = row+1;
             int spaces = n - starsCount;
             for(int col=0;col<spaces;col++){
                 System.out.print("  ");
@@ -98,7 +98,7 @@ public class pattern1 {
             System.out.println();
         }
     }
-    private static void pattern66(int n) { //mindblock thinking 😲
+    private static void pattern66(int n) { //mindblock kunal thinking 😲
         for(int row=0; row<2*n;row++){//increasing row size for revers stars
 
             int starsCount = (row<n) ? row+1 : (2*n -row-1);//until <n taking row as a no of starts to print after  crossing it taking extended row limit - row
